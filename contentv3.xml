@@ -2722,7 +2722,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="43"></reference>
+  <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2753,7 +2753,7 @@
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="Administrción De La Tecnologia Cliente - Servidor"></unicode>
+    <unicode value="Administración De La Tecnologia Cliente - Servidor"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
