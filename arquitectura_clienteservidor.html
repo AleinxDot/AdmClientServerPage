@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Arquitectura Cliente-Servidor | Administrción De La Tecnologia Cliente - Servidor </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Aldo Vitaliano Duran Roja, Alexander Alexis Gonzales Policio" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-3"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Administrción De La Tecnologia Cliente - Servidor</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Administración de la tecnología cliente-servidor</a></li>
+   <li><a href="qu_es_la_tecnologa_clienteservidor.html" class="no-ch">¿Qué es la Tecnología Cliente-Servidor?</a></li>
+   <li id="active"><a href="arquitectura_clienteservidor.html" class="active no-ch">Arquitectura Cliente-Servidor</a></li>
+   <li><a href="tipos_de_modelos_clienteservidor.html" class="no-ch">Tipos de Modelos Cliente-Servidor</a></li>
+   <li><a href="ventajas_y_desventajas.html" class="no-ch">Ventajas y Desventajas</a></li>
+   <li><a href="aplicaciones_y_usos_en_la_industria.html" class="no-ch">Aplicaciones y Usos en la Industria</a></li>
+   <li><a href="buenas_prcticas_para_la_administracin.html" class="no-ch">Buenas Prácticas para la Administración</a></li>
+   <li><a href="futuro_de_la_tecnologa_clienteservidor.html" class="no-ch">Futuro de la Tecnología Cliente-Servidor</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="qu_es_la_tecnologa_clienteservidor.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="tipos_de_modelos_clienteservidor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Arquitectura Cliente-Servidor</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id3">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Introducción a la Arquitectura Cliente-Servidor</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta3_130_2" class="block iDevice_content">
+<div class="exe-text"><p>La arquitectura cliente-servidor es un modelo de diseño de sistemas que divide las aplicaciones en dos partes principales: el cliente y el servidor. Estos dos elementos interactúan entre sí a través de una red, permitiendo que el cliente solicite servicios y que el servidor los proporcione. Este diseño facilita la distribución de tareas y recursos, lo que mejora la eficiencia y escalabilidad de los sistemas.</p>
+<p><img src="Modelo_cliente-servidor.jpg" alt="" width="846" height="580" style="display: block; margin-left: auto; margin-right: auto;" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id4">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Componentes Clave de la Arquitectura Cliente-Servidor</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta4_127_2" class="block iDevice_content">
+<div class="exe-text"><p>Los principales componentes de la arquitectura cliente-servidor son:</p>
+<div class="exe-fx exe-tabs">
+<h2>Cliente</h2>
+<p style="text-align: center;"><img src="usuario.png" alt="" width="48" height="48" /></p>
+<p>El cliente es el dispositivo o aplicación que solicita servicios al servidor. Puede ser un navegador web, una aplicación móvil o cualquier software que interactúe con los recursos proporcionados por un servidor.</p>
+<p><strong>Características:</strong></p>
+<ul>
+<li>Solicita servicios o recursos (datos, archivos, páginas web) al servidor.</li>
+<li>Muestra los resultados al usuario final.</li>
+<li>Interactúa a través de una interfaz gráfica.</li>
+<li>Puede ser un "cliente delgado" (que realiza mínimas tareas de procesamiento) o un "cliente grueso" (que maneja más tareas localmente).</li>
+</ul>
+<h2>Servidor</h2>
+<p><img src="server.png" alt="" width="47" height="47" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>El servidor es la entidad encargada de almacenar y administrar los recursos solicitados por el cliente, como bases de datos, archivos o servicios de aplicaciones.</p>
+<p><strong>Características:</strong></p>
+<ul>
+<li>Procesa las solicitudes de los clientes.</li>
+<li>Proporciona los recursos o servicios solicitados.</li>
+<li>Puede estar configurado para manejar grandes volúmenes de solicitudes simultáneas.</li>
+<li>Ejemplos: servidores web, de bases de datos, de correo electrónico, entre otros.</li>
+</ul>
+<h2>Red</h2>
+<p><img src="www.png" alt="" width="48" height="48" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>La red es el canal que permite la comunicación entre el cliente y el servidor. Generalmente, esta comunicación se realiza a través de internet o una red de área local (LAN).</p>
+<p><strong>Características:</strong></p>
+<ul>
+<li>Utiliza protocolos de red como HTTP, TCP/IP para gestionar las solicitudes y respuestas.</li>
+<li>Asegura la entrega eficiente de datos entre el cliente y el servidor.</li>
+</ul>
+<h2>Middleware</h2>
+<p><img src="Middleware.png" alt="" width="50" height="50" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>El middleware es un software intermedio que facilita la interacción entre el cliente y el servidor. Proporciona servicios adicionales, como seguridad, autenticación, enrutamiento de solicitudes y transformación de datos.</p>
+<p><strong>Características:</strong></p>
+<ul>
+<li>Administra y encola las solicitudes.</li>
+<li>Implementa lógica empresarial compleja.</li>
+<li>Facilita la escalabilidad y distribución de tareas.</li>
+</ul>
+</div>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="qu_es_la_tecnologa_clienteservidor.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="tipos_de_modelos_clienteservidor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
