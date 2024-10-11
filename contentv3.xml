@@ -71,7 +71,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value=""></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -531,13 +531,13 @@
       <instance class="exe.engine.node.Node" reference="12">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Arquitectura Cliente-Servidor"></unicode>
+        <unicode value="Introducción a la Arquitectura Cliente - Servidor"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="10">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Introducción a la Arquitectura Cliente-Servidor"></unicode>
+           <unicode value=""></unicode>
            <string role="key" value="_attributes"></string>
            <list>
             <tuple>
@@ -590,7 +590,7 @@
            <string role="key" value="edit"></string>
            <bool value="0"></bool>
            <string role="key" value="emphasis"></string>
-           <int value="1"></int>
+           <int value="0"></int>
            <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
            <int value="1"></int>
            <string role="key" value="fields"></string>
@@ -1110,7 +1110,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Administraci%C3%B3n%20de%20la%20tecnolog%C3%ADa%20cliente-servidor:Arquitectura%20Cliente-Servidor"></string>
+        <string value="exe-node:Administraci%C3%B3n%20de%20la%20tecnolog%C3%ADa%20cliente-servidor:Introducci%C3%B3n%20a%20la%20Arquitectura%20Cliente%20-%20Servidor"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1128,7 +1128,7 @@
          <instance class="exe.engine.jsidevice.JsIdevice" reference="20">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Introducción a los Modelos Cliente-Servidor"></unicode>
+           <unicode value=""></unicode>
            <string role="key" value="_attributes"></string>
            <list>
             <tuple>
@@ -1181,7 +1181,7 @@
            <string role="key" value="edit"></string>
            <bool value="0"></bool>
            <string role="key" value="emphasis"></string>
-           <int value="1"></int>
+           <int value="0"></int>
            <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
            <int value="1"></int>
            <string role="key" value="fields"></string>
@@ -1847,7 +1847,7 @@
          <instance class="exe.engine.jsidevice.JsIdevice" reference="31">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Introducción a las Aplicaciones y Usos en la Industria"></unicode>
+           <unicode value=""></unicode>
            <string role="key" value="_attributes"></string>
            <list>
             <tuple>
@@ -1900,7 +1900,7 @@
            <string role="key" value="edit"></string>
            <bool value="0"></bool>
            <string role="key" value="emphasis"></string>
-           <int value="1"></int>
+           <int value="0"></int>
            <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
            <int value="1"></int>
            <string role="key" value="fields"></string>
@@ -2250,7 +2250,7 @@
          <instance class="exe.engine.jsidevice.JsIdevice" reference="38">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="4 Buenas Prácticas para la Administración"></unicode>
+           <unicode value=""></unicode>
            <string role="key" value="_attributes"></string>
            <list>
             <tuple>
@@ -2303,7 +2303,7 @@
            <string role="key" value="edit"></string>
            <bool value="0"></bool>
            <string role="key" value="emphasis"></string>
-           <int value="1"></int>
+           <int value="0"></int>
            <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
            <int value="1"></int>
            <string role="key" value="fields"></string>
@@ -2722,7 +2722,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="8"></reference>
+  <reference key="43"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
